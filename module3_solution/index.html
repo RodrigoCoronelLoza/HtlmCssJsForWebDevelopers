@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solution module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -32,9 +32,9 @@
 
           <div class="collapse" id="collapsable-nav">
             <ul id="nav-list" class="nav navbar-nav navbar-right">
-              <li class="visible-xs"><a>Chicken</a></li>
-              <li class="visible-xs"><a>Beef</a></li>
-              <li class="visible-xs"><a>Sushi</a></li>
+              <li class="visible-xs"><a href="#chicken-content">Chicken</a></li>
+              <li class="visible-xs"><a href="#beef-content">Beef</a></li>
+              <li class="visible-xs"><a href="#sushi-content">Sushi</a></li>
             </ul>
           </div>
         </div>
@@ -43,23 +43,66 @@
     <h1 id="title" class="text-center">Our menu</h1>
 
     <div id="main-content" class="container">
-      <div class="row">
-        <div id="chicken-content" class="col-xs-12">
-          <h2 class="text-center">Chicken</h2>
-          <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            libero a labore amet esse repellendus sit laboriosam iure quo
-            quidem! Delectus odit alias nostrum tempora voluptatem quisquam
-            laborum dolorum officiis! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Fuga earum nobis officia molestias ab velit!
-            Distinctio, libero porro ipsam eligendi unde non modi itaque Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Facilis libero a
-            labore amet esse repellendus sit laboriosam iure quo quidem!
-            Delectus odit alias nostrum tempora voluptatem quisquam laborum
-            dolorum officiis! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Fuga earum nobis officia molestias ab velit!
-            Distinctio, libero porro ipsam eligendi unde non modi itaque
-          </p>
+      <div id="tiles" class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div id="chicken-content">
+            <h3 class="text-center">Chicken</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              libero a labore amet esse repellendus sit laboriosam iure quo
+              quidem! Delectus odit alias nostrum tempora voluptatem quisquam
+              laborum dolorum officiis! Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Fuga earum nobis officia molestias ab velit!
+              Distinctio, libero porro ipsam eligendi unde non modi itaque Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Facilis libero
+              a labore amet esse repellendus sit laboriosam iure quo quidem!
+              Delectus odit alias nostrum tempora voluptatem quisquam laborum
+              dolorum officiis! Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Fuga earum nobis officia molestias ab velit!
+              Distinctio, libero porro ipsam eligendi unde non modi itaque
+            </p>
+            <a href="#title">back to top</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div id="beef-content">
+            <h3 class="text-center">Beef</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              libero a labore amet esse repellendus sit laboriosam iure quo
+              quidem! Delectus odit alias nostrum tempora voluptatem quisquam
+              laborum dolorum officiis! Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Fuga earum nobis officia molestias ab velit!
+              Distinctio, libero porro ipsam eligendi unde non modi itaque Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Facilis libero
+              a labore amet esse repellendus sit laboriosam iure quo quidem!
+              Delectus odit alias nostrum tempora voluptatem quisquam laborum
+              dolorum officiis! Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Fuga earum nobis officia molestias ab velit!
+              Distinctio, libero porro ipsam eligendi unde non modi itaque
+            </p>
+            <a href="#title">back to top</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div id="sushi-content">
+            <h3 class="text-center">Sushi</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              libero a labore amet esse repellendus sit laboriosam iure quo
+              quidem! Delectus odit alias nostrum tempora voluptatem quisquam
+              laborum dolorum officiis! Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Fuga earum nobis officia molestias ab velit!
+              Distinctio, libero porro ipsam eligendi unde non modi itaque Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Facilis libero
+              a labore amet esse repellendus sit laboriosam iure quo quidem!
+              Delectus odit alias nostrum tempora voluptatem quisquam laborum
+              dolorum officiis! Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Fuga earum nobis officia molestias ab velit!
+              Distinctio, libero porro ipsam eligendi unde non modi itaque
+            </p>
+            <a href="#title">back to top</a>
+          </div>
         </div>
       </div>
     </div>

@@ -42,13 +42,27 @@
 #title {
   margin-top: 10px;
 }
-#chicken-content {
-  background-color: cornsilk;
-  /* border: 1px solid black; */
-  height: 1000px;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+
+#main-content {
+  /* margin-left: 0; */
+  /* margin-right: 0; */
   width: 90%;
+}
+
+/* .row > div {
+  border: 2px solid red;
+   background-color: gray; 
+} */
+#chicken-content,
+#beef-content,
+#sushi-content {
+  background-color: cornsilk;
+  border: 1px solid black;
+  /* position: relative; */
+  height: 1000px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  /* width: 90%; */
 }
